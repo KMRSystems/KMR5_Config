@@ -1,0 +1,32 @@
+{
+  "name": "kmrsystems/kmr_config",
+  "description": "KMR Config",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "homepage": "https://kmr.systems",
+  "authors": [
+    {
+      "name": "KMR Systems",
+      "email": "office@kmr.systems",
+      "homepage": "https://kmr.systems",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "require": {
+	  "php": "^8.0 || ^8.2",
+      "typo3/cms-core": "^12.0 || ^12.4",
+      "kmrsystems/kmr5": "^5.0 || ^5.999"
+    },
+
+  "autoload": {
+      "psr-4": {
+         "KmrSystems\\KMRConfig\\": "Classes/"
+      }
+   },
+   "extra": {
+      "typo3/cms": {
+         "extension-key": "my_extension"
+      }
+   }
+}

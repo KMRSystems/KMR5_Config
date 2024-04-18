@@ -1,0 +1,6 @@
+lib.content_config = COA
+
+lib.content_config.10 = USER_INT
+lib.content_config.10  {
+  userFunc = KmrSystems\KMRConfig\Controller\Constructor->head
+}
